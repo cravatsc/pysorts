@@ -8,7 +8,7 @@ def main():
         sort_list.append(random.randint(0, 100))
     print(sort_list)
     print("-------")
-    bubble.bubble(sort_list)
+    bubble.sort(sort_list)
     print(sort_list)
 
 

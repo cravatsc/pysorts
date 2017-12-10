@@ -1,4 +1,8 @@
-def bubble(list):
+from decorators import timer
+
+
+@timer
+def sort(list):
     for list_size in range(len(list) - 1, 0, -1):
         for pos in range(list_size):
             if list[pos] > list[pos + 1]:
